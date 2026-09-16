@@ -8,4 +8,4 @@ clear | echo Adding Auto-connect wifi (5 seconds)
 write startup.config "run wifi.config"
 wait 5
 append startup.config "run setup.fsh"
-clear | echo Added setup to auto-run at startup
+clear | echo Added setup to auto-run at startup /!\ Done /!\
